@@ -7,3 +7,5 @@ def fibonacci(n)
     return fibonacci(n-1) + fibonacci(n-2)
   end
 end
+
+puts "The Fionacci value of #{n} is #{fibonacci(n)}."
